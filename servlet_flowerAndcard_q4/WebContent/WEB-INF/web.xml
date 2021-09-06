@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>servlet_flowerAndcard_q4</display-name>
+  <welcome-file-list>
+    <welcome-file>home.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CardController</display-name>
+    <servlet-name>CardController</servlet-name>
+    <servlet-class>com.demo.CardController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CardController</servlet-name>
+    <url-pattern>/CardController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FlowerController</display-name>
+    <servlet-name>FlowerController</servlet-name>
+    <servlet-class>com.demo.FlowerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FlowerController</servlet-name>
+    <url-pattern>/FlowerController</url-pattern>
+  </servlet-mapping>
+</web-app>
